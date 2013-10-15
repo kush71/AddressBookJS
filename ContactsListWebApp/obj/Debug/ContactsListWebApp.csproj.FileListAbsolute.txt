@@ -1,0 +1,4 @@
+C:\Users\Sergii\Documents\Visual Studio 2012\Projects\ContactsListWebApp\ContactsListWebApp\bin\ContactsListWebApp.dll
+C:\Users\Sergii\Documents\Visual Studio 2012\Projects\ContactsListWebApp\ContactsListWebApp\bin\ContactsListWebApp.pdb
+C:\Users\Sergii\Documents\Visual Studio 2012\Projects\ContactsListWebApp\ContactsListWebApp\obj\Debug\ContactsListWebApp.dll
+C:\Users\Sergii\Documents\Visual Studio 2012\Projects\ContactsListWebApp\ContactsListWebApp\obj\Debug\ContactsListWebApp.pdb

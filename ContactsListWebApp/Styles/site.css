@@ -1,0 +1,47 @@
+﻿body {
+}
+/* 2 columns layout : left fluid + right fixed */
+div.wrapper {
+	height: auto;
+	overflow: hidden;
+}
+/*make sure the right fixed div goes first in html, before the left fluid one*/
+div.right-links {
+	width: 60px;
+	float: right;
+	margin: 8px 2px;
+}
+
+div.left-container {
+	float: none;
+	width: auto;
+	overflow: hidden;
+}
+
+/* 2 columns layout : left fixed */
+div.left-select {
+	width: 220px;
+	float: left;
+	margin: 8px 2px;
+}
+
+div.left-label {
+	width: 110px;
+	float: left;
+	margin: 2px;
+	text-align:right;
+}
+
+div.right-container {
+	float: none;
+	width: auto;
+	overflow: hidden;
+}
+
+img.contact-photo {
+	min-height: 96px;
+	min-width: 96px;
+	height:100px;
+	max-height: 200px;
+	max-width: 160px;
+}

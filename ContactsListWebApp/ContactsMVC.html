@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="./Scripts/jquery-1.7.1.min.js"></script>
+    <!--<script src="./Scripts/jquery-ui-1.8.20.min.js"></script>-->
+    <script src="./Scripts/ContactListMVC.js"></script>
+    <link href="./Styles/Site.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="right-links">
+            <a title="Log out and log in as another user" href="Logon.aspx">Logout</a>
+        </div>
+        <div class="left-container bordered">
+            <h1>Contacts</h1>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="left-select">
+            <label for="SearchText">Search :</label>
+            <input id="SearchText" type="text" title="type 2 or more letters" class="contacts-select" />
+            <br />
+            <label for="GroupSelect">Select a group :</label>
+            <select id="GroupSelect" class="contacts-select">
+                <option>All</option>
+                <option>Friends</option>
+                <option>Colleagues</option>
+            </select>
+            <br />
+            Contacts :
+            <br />
+            <select id="list" size="15" style="width: 15em" class="contacts-select"></select><br />
+            <button id="addBtn" class="contacts-select">Add </button>
+            <button id="delBtn" class="contacts-select">Remove  </button>
+            <button id="editBtn" class="contacts-select">Edit...  </button>
+        </div>
+        <div id="contactForm" class="right-container">
+            <img id="ContactPicture" src="./images/User-0.png" class="contact-photo" />
+            <br />
+            <input id="ContactId" type="text" style="display: none;" />
+            <br />
+            <div class="wrapper">
+                <div class="left-label">
+                    <label for="ContactName">Name :</label> <br/>
+                </div>
+                <div class="right-container">
+                    <input id="ContactName" type="text" disabled="disabled" class="contact-info-edit" /> <br />
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="left-label">
+                    <label for="ContactEmail">Email :</label> <br />
+                </div>
+                <div class="right-container">
+                    <input id="ContactEmail" type="text" disabled="disabled" class="contact-info-edit" /> <br />
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="left-label">
+                    <label for="ContactPhone">Phone :</label> <br />
+                </div>
+                <div class="right-container">
+                    <input id="Contact" type="text" disabled="disabled" class="contact-info-edit" /> <br />
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="left-label">
+                    <label for="ContactGroupDropdown">Belongs to group :</label> <br />
+                </div>
+                <div class="right-container">
+                    <select id="ContactGroupDropdown" disabled="disabled" class="contact-info-edit">
+                        <option></option>
+                        <option>Friends</option>
+                        <option>Colleagues</option>
+                    </select>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="left-label">
+                </div>
+                <div class="right-container">
+                    <button id="saveBtn" class="contact-info-edit">Save</button>
+                    <button id="discardBtn" class="contact-info-edit">Discard</button>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
